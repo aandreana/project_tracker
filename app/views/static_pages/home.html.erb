@@ -1,4 +1,14 @@
-<% provide(:title, "Home") %>
+<div class="center jumbotron">
+  <h1>Welcome to ProTrac</h1>
 
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+  <h2>
+    This is the home page for the
+    <a href="#">ProTrac Project Management</a>
+    application.
+  </h2>
+
+  <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>

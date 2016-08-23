@@ -2,7 +2,7 @@ module ApplicationHelper
 
   #Returns the full title on a per-page basis
   def full_title(page_title = '')
-    base_title = "ProTrac Project Management App"
+    base_title = "ProTrac Project Tracking App"
     if page_title.empty?
       base_title
     else
